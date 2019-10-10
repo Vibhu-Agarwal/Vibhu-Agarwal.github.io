@@ -5,53 +5,83 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+
+    <meta property="og:title" content="Vibhu Agarwal | Python Enthusiast | Web Developer"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://Vibhu-Agarwal.github.io/"/>
+    <meta property="og:image" content="images/og.jpg"/>
+    <meta property="og:site_name" content="Vibhu Agarwal"/>
+    <meta property="og:description" content="Hello, world! I am Vibhu Agarwal. Currently an undergraduate in 2nd year at Jaypee Institute of Information Technology, Noida."/>
+
+    <title>Vibhu Agarwal</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/fontawesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="devrant-icon-font/style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
+
+<style>
+#links .fab:hover {transform: scale(1.2);}
+#links .fas:hover {transform: scale(1.2);}
+#links {font-size:35px;}
+</style>
 
 <body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
-    <header>
+    <header class="sticky">
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
+                <a target="_blank" href="#about">About</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+                <a target="_blank" href="#experience">Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a target="_blank" href="#education">Education</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a target="_blank" href="#projects">Projects</a>
             </li>
             <li>
-                <a href="#skills">Skills</a>
+                <a target="_blank" href="#skills">Skills</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a target="_blank" href="#organizations">Organizations</a>
+            </li>
+            <li>
+                <a target="_blank" href="#contact">Contact</a>
             </li>
         </ul>
     </header>
     <!-- End header -->
 
     <div id="lead">
-        <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+        <div id="lead-content"><br><br><br><br>
+            <h1>Vibhu Agarwal</h1>
+            <h2>Python Enthusiast | Web Developer</h2><br>
+            <a target="_blank" href="static/Vibhu's%20Resume%202019.pdf" class="btn-rounded-white">Download Resume</a>
+            <div id="links" style="padding-top: 10px;">
+                <a target="_blank" href="https://github.com/Vibhu-Agarwal" target="_blank" style="color:white;"><i class="fab fa-github" aria-hidden="true"></i></a>&nbsp;
+                <a target="_blank" href="https://t.me/vibhu4agarwal/" target="_blank" style="color:white;"><i class="fab fa-telegram" aria-hidden="true"></i></a>&nbsp;
+                <a target="_blank" href="https://www.linkedin.com/in/vibhu4agarwal/" target="_blank" style="color:white;"><i class="fab fa-linkedin" aria-hidden="true"></i></a>&nbsp;
+                <a target="_blank" href="https://vibhu-agarwal.blogspot.com/" target="_blank" style="color:white;"><i class="fab fa-blogger" aria-hidden="true"></i></a>&nbsp;
+                <a target="_blank" href="https://pypi.org/user/potterhead_vibhu/" target="_blank" style="color:white;"><i class="fab fa-python" aria-hidden="true"></i></a>
+                <a target="_blank" href="mailto:vibhu4agarwal@gmail.com" target="_blank" style="color:white;"><i class="fas fa-envelope" aria-hidden="true"></i></a>&nbsp;
+            </div>
         </div>
+
+
         <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
@@ -66,16 +96,20 @@
     <!-- End #lead -->
 
     <div id="about">
+        <h2 class="heading">About Me</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                <div class="col-md-12">
+                    <img class="image" src="images/me.jpg" />
                 </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                <div class="col-md-12">
+                    <p style="text-align:center;">
+                        <br>
+                        Hello, world! <br> 
+                        I am <b>Vibhu Agarwal.</b><br>
+                        Currently an undergraduate at
+                        <a target="_blank" href="http://www.jiit.ac.in/"><b>Jaypee Institute of Information Technology, Noida.</b></a><br>
+                        I like to explore new technologies and adapt to their methodologies by being involved in different communities and events and inquisitively learn from every opportunity that comes my way.<br><br>
                     </p>
                 </div>
             </div>
@@ -84,29 +118,47 @@
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+        <h2 class="heading">Work Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            
+            <div data-date="May 2019 – August 2019">
+                <img class="company-img" src="images/creesync_logo.png" width="30px"/>
+                <h3><a target="_blank" href="http://creesync.com/">Creesync Software</a></h3>
+                <h4>Back-end Developer, Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    <b>1. Developed Back-end for <a href="http://goldgali.com/">
+                    GoldGali</a>, an e-commerce website</b><br>
+                    <b>2. Integrated Payment Gateway through <a target="_blank" href="https://razorpay.com/">Razorpay</a> and Developed APIs to interact with the local Database</b><br>
+                    <b>3. Worked on <a target="_blank" href="https://www.django-rest-framework.org/">REST</a> framework - Restructured APIs and managed Databases (Postgresql, MySQL, Sqlite)</b><br>
+                    <b>4. Worked with <a target="_blank" href="https://cloud.google.com/">GCP</a> and <a target="_blank" href="https://aws.amazon.com/">AWS</a> for compute and storage options</b><br>
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="March 2019 – April 2019">
+                <img class="company-img" src="images/gfg_logo.png" height="30px" width="30px"/>
+                <h3><a target="_blank" href="https://www.geeksforgeeks.org/">GeeksForGeeks</a></h3>
+                <h4>Content Writing Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    <b>1. Wrote 10 <a target="_blank" href="https://auth.geeksforgeeks.org/user/vibhu4agarwal/">articles</a>
+                    explaining about DataClasses (Python3.7),
+                    API Development, Web Scraping and Flask Framework
+                    </b><br>
+                    
+                    <b>2. Improved many existing articles by adding
+                    Python3 codes or debugging them</b><br><br>
+                    <b>View <a target="_blank" href="http://bit.ly/vibhu4agarwal_gfg_certificate">Certificate</a></b>
                 </p>
             </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            
+            <div data-date="December 2018 – January 2019">
+                <img class="company-img" src="images/internity_logo.jpg" height="30px" width="30px"/>
+                <h3><a target="_blank" href="http://internity.in/">Internity Foundation</a></h3>
+                <h4>Machine Learning Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    <b>1. Studied several Machine Learning Algorithms and their implementations through minor projects on relatively small datasets</b><br>
+                    <b>2. As a team, I worked on <a target="_blank" href="https://github.com/Vibhu-Agarwal/Stock-Market-Prediction">Stock-Market-Predictor</a> project which used ARIMA model, RNNs and LSTMs on Stock Market Dataset and made different models to identify the trends and time-series forecasting</b><br>
+                    <b>3. Got the <a target="_blank" href="http://bit.ly/vibhu4agarwal_internity_certificate">title of 'Challenge Acceptor'</a> among 17 interns</b><br><br>
+                    <b>View <a target="_blank" href="http://bit.ly/vibhu4agarwal_Internity">Completion Letter</a></b>
                 </p>
             </div>
         </div>
@@ -116,30 +168,43 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>Jaypee Institute of Information Technology, Noida</h3>
+            <span class="education-date">August, 2017 - May, 2022</span>
+            <h4>Integrated B.Tech. and M.Tech. in Computer Science</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                <ul>
+                    <li>
+                        <b>Ongoing:</b> V Semester (3rd Year)
+                    </li>
+                    <li>
+                        Made a Manual Robot and an autonomous Line Following Robot at Robotics Hub | I and II Semester.
+                    </li>
+                    <li>
+                        1st Runner-Up at Inter-Collge Competitive Programming Competition organized by Knuth Programming Hub | II Semester.
+                    </li>
+                    <li>
+                        Represented College at Smart India Hackathon Grand Finale at Guwahati, Assam     | IV Semester.
+                    </li>
+                    <li>
+                        Technical Coordinator of Developer Student Clubs.
+                    </li>
+                </ul>
             </p>
         </div>
-        <!-- End .education-block -->
-
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>St.Joseph's College, Allahabad</h3>
+            <span class="education-date">2004-2017</span>
+            <h4></h4>
+            <p>
+                <ul>
+                    <li>
+                        <b>Class XII (I.S.C.) Board Exams: </b> 88%
+                    </li>
+                    <li>
+                        <b>Class X (I.C.S.E.) Board Exams: </b> 90%
+                    </li>
+                </ul>
+            </p>
         </div>
         <!-- End .education-block -->
     </div>
@@ -149,17 +214,29 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/MOSPI-Website-Project.gif" height="300px" width="300px"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3>Hit-Me-News (Voice First App)</h3> <hr>
+                        <p> An app which keeps you updated about the latest headlines.<br>
+                            &#10004; Interactive Voice First App or an "<b><a target="_blank" href="https://alexa.amazon.com/">Alexa </a>Skill</b>".<br>
+                            &#10004; Provides dynamic content (latest news).<br>
+                            &#10004; News Headlines are categorical, based on data from user-interaction.<br>
+                            &#10004; Scrapes the websites for News Headlines.<br>
+                            &#10004; Alexa triggered <b>AWS-Lambda Back-end</b>.<br>
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://www.amazon.in/dp/B07XNTWX4B/"> 
+                            <img src="images/alexa_logo.png" height="20px" width="20px">
+                            Try the Skill
+                        </a><br>
+                        <a href="https://github.com/Vibhu-Agarwal/hit-me-news-alexa-skill"> 
+                            <img src="images/github.png" height="20px" width="20px">
+                            View on github
+                        </a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -167,19 +244,120 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/MOSPI-Website-Project.gif" height="300px" width="300px"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3>MOSPI - Website</h3> <hr>
+                        <p> Website for <b>Ministry of Statistics and Programme Implementation</b> (MOSPI)<br>
+                            Developed at Grand Finale of Smart India Hackathon 2019<br>
+                            &#10004; A Django powered Website<br>
+                            &#10004; Generate Template Sheets for each hierarchy at Ministry<br>
+                            &#10004; Automate the task of reading raw data from excel sheets.<br>
+                            &#10004; Make calculations of GVA and other parameters.<br>
+                            &#10004; Report statements and view insights through Charts and Graphs.<br> 
                         </p>
-                        <a href="#">View Project</a>
+                        <p>
+                            <b>Closed-Source</b>
+                        </p>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Attendance-Project.gif" height="300px" width="300px"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Attendance Management through Face Recognition</h3> <hr>
+                        <p> A python based Desktop App to manage Attendance in an Institute<br>
+                            &#10004; Real Time <b>Face Detection and Recognition</b><br>
+                            &#10004; Separate Dedicated Panels for Manager and Students.<br>
+                            &#10004; Add new Batches and Students in Manager Panel<br>
+                            &#10004; Capture Images for Training Data<br>
+                            &#10004; Automated Attendance Register maintainance in Excel Sheets<br>
+                        </p>
+                        <a target="_blank" href="https://github.com/Marauders-9998/Attendance-Management-using-Face-Recognition">
+                            <img src="images/github.png" height="20px" width="20px">
+                            View on github
+                        </a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Marauders-Website-Project.gif" height="300px" width="300px"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Marauders Website</h3> <hr>
+                        <p>
+                           A Website made for <b>Marauders</b>, an organization.<br>
+                           &#10004; Python Microframework, Flask powered Website<br>
+                           &#10004; SQL Database - SQLite<br>
+                            &#10004; <b>Github OAuth</b> Integration for Authorization and Authentication<br>
+                           &#10004; External APIs to provide Marauders' data to other developers<br>
+                        </p>
+                        <a href="http://marauders9998.herokuapp.com/">
+                            <img src="images/marauders_logo.png" height="20px" width="20px">
+                            Visit Marauders
+                        </a><br>
+                        <a target="_blank" href="https://github.com/Marauders-9998/Marauders-Website">
+                            <img src="images/github.png" height="20px" width="20px">
+                            View on github
+                        </a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Facebook-Post-Project.gif" height="300px" width="300px"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Automated Facebook Posting via Speech to Text</h3> <hr>
+                        <p>A python script to post on Facebook<br>
+                            &#10004; Speech to Text using wit.ai API<br>
+                            &#10004; Browser Automation using selenium module<br>
+                        </p>
+                        <a target="_blank" href="https://github.com/Vibhu-Agarwal/Automated-Facebook-Post-from-Speech-to-Text">
+                            <img src="images/github.png" height="20px" width="20px">
+                            View on github
+                        </a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Ultimate-Tic-Tac-Toe.gif" height="300px" width="300px"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Ultimate Tic-Tac-Toe</h3> <hr>
+                        <p><b>Highly modified</b> version of ordinary tic-tac-toe game<br>
+                            A Desktop App made in <b>Java</b><br>
+                            &#10004; 9 individual mini boards contained within 1 main board<br>
+                            &#10004; Constrained moves within the main board<br>
+                            &#10004; Advantages and Penalties<br>
+                            &#10004; Overall lesser tied results<br>
+                        </p>
+                        <a target="_blank" href="http://bit.ly/Ultimate-Tic-Tac-Toe">
+                            <img src="images/download_logo.png" height="20px" width="20px">
+                            Download and Play
+                        </a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
             </div>
         </div>
     </div>
@@ -188,40 +366,87 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
+            <li>Web Development</li>
+            <li>API Development</li>
+            <li>Automated Testing</li>
+            <li>Cloud Computing</li>
+            <li>Database Management</li>
+            <li>Python Packaging</li>
+            <li>Web Scraping</li>
+            <li>Machine Learning</li>
+            <li>GUI Development</li>
+            <li>Task Automation</li>
+        </ul>
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Languages</h2>
+        <ul>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
             <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+        </ul>
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Tools & Technologies</h2>
+        <ul>
+            <li>GCP</li>
+            <li>AWS</li>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>Alexa</li>
+            <li>Postman</li>
+            <li>Beautiful Soup</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>OpenCV</li>
+            <li>tkinter</li>
+            <li>java-swing</li>
+            <li>java-awt</li>
         </ul>
     </div>
     <!-- End #skills -->
 
+    <!-- Start Organizations -->
+    <div id="organizations" class="background-alt">
+        <h2 class="heading">Organizations I've been involved with</h2>
+        <div id="organizations-timeline">
+            
+            <div data-date="July 2019 – Present">
+                <img class="company-img" src="images/qwiklabs_logo.png" width="30px"/>
+                <h3><a target="_blank" href="https://developers.google.com/community/dsc/">Qwiklabs & Google Developers' Group</a></h3>
+                <h4>GCP Quest Leader</h4>
+                <p>
+                    <b>1. Completed over 70 labs and 5 quests on the platform.</b><br>
+                    <b>2. Co-hosted Cloud Study Jams to help students get hands-on training on Google Cloud Platform.</b><br>
+                    <b>3. Delivered a talk on GCP Essentials at Google Cloud Program held at JIIT, Noida, attended by over 300 students across Delhi-NCR region.</b><br><br>
+                    <b>View <a target="_blank" href="http://bit.ly/vibhu4agarwal_qwiklabs">Public Profile</a></b>
+                </p>
+            </div>
+            
+            <div data-date="August 2018 – Present">
+                <img class="company-img" src="images/dsc-logo.png" width="30px"/>
+                <h3><a target="_blank" href="https://developers.google.com/community/dsc/">Developer Student Clubs</a></h3>
+                <h4>Technical Coordinator</h4>
+                <p>
+                    <b>1. <a href="#organizations">
+                    Web Dev 18.1</a> - Front-End Workshop (18-21 September, 2018)</b><br>
+                    <b>2. <a href="#organizations">
+                    Web Dev 18.2</a> - Backend (PHP) Workshop (9-12 October, 2018)</b><br>
+                    <b>3. <a href="#organizations">
+                    Dev Fest 2k18</a> - Talks and Hackathon (17-18 November, 2018)</b><br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #organizations -->
+
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/mqrlnqjx">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,7 +462,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2018 Vibhu Agarwal
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,22 +473,19 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://github.com/Vibhu-Agarwal" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://t.me/vibhu4agarwal/" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/vibhu4agarwal/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a target="_blank" href="https://facebook.com/vibhu.jiit.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a target="_blank" href="mailto:vibhu4agarwal@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -271,6 +493,7 @@
         </div>
     </footer>
     <!-- End footer -->
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
