@@ -219,7 +219,9 @@ footer {
   padding: 15px 25px;
   border: 3px solid #fff;
   border-radius: 30px;
-  transition: 0.5s ease all; }
+  transition: 0.5s ease all;
+  margin-top: 10px;
+}
   .btn-rounded-white:hover {
     color: #1B5330;
     background: #fff;
