@@ -638,6 +638,9 @@ footer {
 .project-image {
   float: left;
   width: 30%;
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .project-info {
