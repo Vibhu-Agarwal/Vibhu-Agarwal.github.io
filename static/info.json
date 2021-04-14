@@ -1,0 +1,138 @@
+{
+	"profile": {
+		"name": "Vibhu Agarwal",
+		"title": "Python and Open Source Enthusiast | Web Developer",
+		"website": "https://vibhu-agarwal.github.io/",
+		"location": "Noida, India",
+		"resume": "https://vibhu-agarwal.github.io/static/Vibhu_Resume_2020.pdf",
+		"projects-website": "https://vibhu-agarwal.github.io/projects/",
+		"contact": {
+			"telegram": "https://t.me/vibhu4agarwal",
+			"mail": "vibhu4agarwal@gmail.com"
+		},
+		"social": {
+			"linkedin": "https://www.linkedin.com/in/vibhu4agarwal/",
+			"twitter": "https://twitter.com/vibhu4agarwal",
+			"github": "https://github.com/Vibhu-Agarwal"
+		},
+		"blog": [
+			"https://vibhu4agarwal.hashnode.dev/",
+			"https://vibhu-agarwal.blogspot.com/"
+		]
+	},
+	"education": {
+		"university": [
+			{
+				"name": "Jaypee Institute of Information Technology, Noida",
+				"course": [
+					{
+						"name": "Computer Science and Engineering - Integrated (B.Tech. & M.Tech.)",
+						"score": "7.9 C.G.P.A.",
+						"start": 2017,
+						"end": null
+					}
+				]
+			}
+		],
+		"school": [
+			{
+				"name": "St.Joseph's College, Allahabad",
+				"course": [
+					{
+						"name": "XI-XII (I.S.C.)",
+						"score": "88%",
+						"start": 2015,
+						"end": 2017
+					},
+					{
+						"name": "X (I.C.S.E.) - 2015",
+						"score": "90%",
+						"start": null,
+						"end": 2015
+					}
+				]
+			}
+		]
+	},
+	"work-experience": [
+		{
+			"company": "Viga Entertainment Technology",
+			"website": "https://www.vigaet.com/",
+			"roles": [
+				{
+					"role": "Engineering Team Lead",
+					"start": "08/2020",
+					"end": "12/2020"
+				},
+				{
+					"role": "Backend Developer, Intern",
+					"start": "03/2020",
+					"end": "08/2020"
+				}
+			]
+		},
+		{
+			"company": "Creesync Software",
+			"website": "https://creesync.com/",
+			"roles": [
+				{
+					"role": "Backend Web-Developer, Intern",
+					"start": "05/2019",
+					"end": "08/2019"
+				}
+			]
+		},
+		{
+			"company": "GeeksforGeeks",
+			"website": "https://www.geeksforgeeks.org/",
+			"roles": [
+				{
+					"role": "Technical Content Scripter, Intern",
+					"start": "03/2019",
+					"end": "04/2019"
+				}
+			]
+		},
+		{
+			"company": "Internity Foundation",
+			"website": "https://www.geeksforgeeks.org/",
+			"roles": [
+				{
+					"role": "Machine Learning Intern",
+					"start": "12/2018",
+					"end": "02/2019"
+				}
+			]
+		}
+	],
+	"talks": [
+		{
+			"title": "Developing a Single-Sign-On Service using Django",
+			"conference": "PyCon Sweden",
+			"date": "12/11/2020",
+			"video": "https://youtu.be/4BN2Np7fUqY",
+			"slide-deck": "https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django-pycon-sweden-2020"
+		},
+		{
+			"title": "Developing a Single-Sign-On Service using Django",
+			"conference": "PyCon India",
+			"date": "03/10/2020",
+			"video": "https://youtu.be/JOMHAJNiQg8",
+			"slide-deck": "https://speakerdeck.com/vibhu4agarwal/developing-an-sso-service-using-django"
+		}
+	],
+	"organizations": [
+		{
+			"name": "Google Developers' Group (GDG)",
+			"role": "GCP Quest Leader",
+			"start": "07/2019",
+			"end": "06/2020"
+		},
+		{
+			"name": "Developer Student Clubs",
+			"role": "Technical Coordinator",
+			"start": "08/2018",
+			"end": "05/2021"
+		}
+	]
+}
