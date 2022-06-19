@@ -58,6 +58,17 @@
 	},
 	"work-experience": [
 		{
+			"company": "PlaySimple Games",
+			"website": "https://playsimple.in/",
+			"roles": [
+				{
+					"role": "SDE, Intern",
+					"start": "02/2022",
+					"end": null
+				}
+			]
+		},
+		{
 			"company": "Viga Entertainment Technology",
 			"website": "https://www.vigaet.com/",
 			"roles": [
