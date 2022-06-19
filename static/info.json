@@ -1,10 +1,10 @@
 {
 	"profile": {
 		"name": "Vibhu Agarwal",
-		"title": "Python and Open Source Enthusiast | Web Developer",
+		"title": "Web & Open Source Enthusiast | Full-Stack Developer",
 		"website": "https://vibhu-agarwal.github.io/",
-		"location": "Delhi, India",
-		"resume": "https://vibhu-agarwal.github.io/static/Vibhu_Resume_2021.pdf",
+		"location": "Bengaluru, India",
+		"resume": "https://vibhu-agarwal.github.io/static/Vibhu_Resume_2022.pdf",
 		"projects-website": "https://vibhu-agarwal.github.io/projects/",
 		"projects-json": "https://vibhu-agarwal.github.io/static/projects.json",
 		"contact": {
@@ -29,9 +29,9 @@
 				"course": [
 					{
 						"name": "Computer Science and Engineering - Integrated (B.Tech. & M.Tech.)",
-						"score": "8.1 C.G.P.A.",
+						"score": "8.0 C.G.P.A.",
 						"start": 2017,
-						"end": null
+						"end": 2022
 					}
 				]
 			}
@@ -49,7 +49,7 @@
 					{
 						"name": "X (I.C.S.E.) - 2015",
 						"score": "90%",
-						"start": null,
+						"start": 2014,
 						"end": 2015
 					}
 				]
