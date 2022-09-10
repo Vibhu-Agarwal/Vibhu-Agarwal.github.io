@@ -62,9 +62,14 @@
 			"website": "https://playsimple.in/",
 			"roles": [
 				{
+					"role": "Associate Software Engineer",
+					"start": "08/2022",
+					"end": null
+				},
+				{
 					"role": "SDE, Intern",
 					"start": "02/2022",
-					"end": null
+					"end": "08/2022"
 				}
 			]
 		},
