@@ -67,7 +67,7 @@
     <div id="lead">
         <div id="lead-content"><br><br><br><br>
             <h1>Vibhu Agarwal</h1>
-            <h2>Python Enthusiast | Full-Stack Developer</h2><br>
+            <h2>Web & Open Source Enthusiast<br>Full-Stack Developer</h2><br>
             <div id="links" style="padding-top: 10px;">
                 <a target="_blank" href="https://github.com/Vibhu-Agarwal" target="_blank" style="color:white;"><i class="fab fa-github" aria-hidden="true"></i></a>&nbsp;
                 <a target="_blank" href="https://pypi.org/user/potterhead_vibhu/" target="_blank" style="color:white;"><i class="fab fa-python" aria-hidden="true"></i></a>&nbsp;
@@ -258,7 +258,7 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Side Projects</h2>
         <div class="container">
             <div class="row">
 
@@ -280,6 +280,10 @@
                             <img src="images/google-play-store-logo.png" height="20px">
 			    Download from PlayStore
                         </a><br>
+                        <a href="https://www.amazon.in/dp/B07XNTWX4B/"> 
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            Watch the Demo
+                        </a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -288,25 +292,44 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/Hit-Me-News-Alexa.gif" width="100%"/>
+                        <img src="images/sso.png" width="100%"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Hit-Me-News (Voice First App)</h3> <hr>
-                        <p> An app which keeps you updated about the latest headlines.<br>
-                            &#10004; Interactive Voice First App or an "<b><a target="_blank" href="https://alexa.amazon.com/">Alexa </a>Skill</b>".<br>
-                            &#10004; Provides dynamic content (latest news).<br>
-                            &#10004; News Headlines are categorical, based on data from user-interaction.<br>
-                            &#10004; Scrapes the websites for News Headlines.<br>
-                            &#10004; Alexa triggered <b>AWS-Lambda Back-end</b>.<br>
+                        <h3>Single-Sign-On</h3> <hr>
+                        <p> A server implementation to centralize authorization and authentication<br>
+                            Implemented in <b>Django</b><br>
+                            Uses <b>cryptography</b> for generating public and private keys<br>
+                            Originally developed during my the time when I was working at VigaStudios
                         </p>
-                        <a href="https://www.amazon.in/dp/B07XNTWX4B/"> 
-                            <img src="images/alexa_logo.png" height="20px" width="20px">
-                            Try the Skill
+                        <a href="https://www.youtube.com/watch?v=4BN2Np7fUqY"> 
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            Watch the Talk from PyCon Sweden
                         </a><br>
-                        <a href="https://github.com/Vibhu-Agarwal/hit-me-news-alexa-skill"> 
+                        <a href="https://github.com/Vibhu-Agarwal/Developing-an-SSO-Service-using-Django"> 
                             <img src="images/github.png" height="20px" width="20px">
-                            View on github
+                            Check out the Code
+                        </a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Hedwig.png" width="100%"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Hedwig 🦉💬</h3> <hr>
+                        <p>An asynchronus web-server to support chat-applications having multiple rooms/groups<br>
+                            Built using <b>FastAPI</b> and <b>websockets</b><br>
+                            <b>Redis</b> is used as the caching layer for messages<br>
+                            Redis's <b>Pub/Sub</b> used for triggering sending/receiving of messages.
+                        </p>
+                        <a href="https://github.com/shawarmaKoders/Hedwig"> 
+                            <img src="images/github.png" height="20px" width="20px">
+                            Check out the Code
                         </a>
                     </div>
                     <!-- End .project-info -->
@@ -358,78 +381,8 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Marauders-Website-Project.gif" width="100%"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Marauders Website</h3> <hr>
-                        <p>
-                           A Website made for <b>Marauders</b>, an organization.<br>
-                           &#10004; Python Microframework, Flask powered Website<br>
-                           &#10004; SQL Database - SQLite<br>
-                           &#10004; <b>Github OAuth</b> Integration for Authorization and Authentication<br>
-                           &#10004; External APIs to provide Marauders' data to other developers<br>
-                        </p>
-                        <a href="http://marauders9998.herokuapp.com/">
-                            <img src="images/marauders_logo.png" height="20px" width="20px">
-                            Visit Marauders
-                        </a><br>
-                        <a target="_blank" href="https://github.com/Marauders-9998/Marauders-Website">
-                            <img src="images/github.png" height="20px" width="20px">
-                            View on github
-                        </a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Facebook-Post-Project.gif" width="100%"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Automated Facebook Posting via Speech to Text</h3> <hr>
-                        <p>A python script to post on Facebook<br>
-                            &#10004; Speech to Text using wit.ai API<br>
-                            &#10004; Browser Automation using selenium module<br>
-                        </p>
-                        <a target="_blank" href="https://github.com/Vibhu-Agarwal/Automated-Facebook-Post-from-Speech-to-Text">
-                            <img src="images/github.png" height="20px" width="20px">
-                            View on github
-                        </a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Ultimate-Tic-Tac-Toe.gif" width="100%"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Ultimate Tic-Tac-Toe</h3> <hr>
-                        <p><b>Highly modified</b> version of ordinary tic-tac-toe game<br>
-                            A Desktop App made in <b>Java</b><br>
-                            &#10004; 9 individual mini boards contained within 1 main board<br>
-                            &#10004; Constrained moves within the main board<br>
-                            &#10004; Advantages and Penalties<br>
-                            &#10004; Overall lesser tied results<br>
-                        </p>
-                        <a target="_blank" href="http://bit.ly/Ultimate-Tic-Tac-Toe">
-                            <img src="images/download_logo.png" height="20px" width="20px">
-                            Download and Play
-                        </a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
             </div>
+            <a target="_blank" href="projects/" class="btn-rounded-green">See all Side-Projects</a>&nbsp;&nbsp;
         </div>
     </div>
     <!-- End #projects -->
@@ -440,8 +393,9 @@
             <li>Web Development</li>
             <li>Database modelling</li>
             <li>API Development</li>
-            <li>Mobile Development</li>
             <li>Python Packaging</li>
+            <li>Containerisation</li>
+            <li>Mobile Development</li>
             <li>Cloud Computing</li>
             <li>Database Management</li>
             <li>Web Scraping</li>
